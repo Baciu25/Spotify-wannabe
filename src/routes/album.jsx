@@ -1,7 +1,7 @@
+import { useParams } from "react-router-dom";
+
 export default function Album() {
-  return (
-    <div>
-      <h1>Album</h1>
-    </div>
-  );
+  let { album_id } = useParams();
+
+  return <div> {album_id} </div>;
 }

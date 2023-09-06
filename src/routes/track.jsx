@@ -1,7 +1,7 @@
+import { useParams } from "react-router-dom";
+
 export default function Track() {
-  return (
-    <div>
-      <h1>Track</h1>
-    </div>
-  );
+  let { track_id } = useParams();
+
+  return <div> {track_id} </div>;
 }

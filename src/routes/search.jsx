@@ -4,10 +4,9 @@ import {
   createRoutesFromElements,
   Route,
 } from "react-router-dom";
-import playlist from "./playlist";
-import library from "./library";
 
-export default function search() {
+import { NavLink } from "react-router-dom";
+export default function Search() {
   return (
     <>
       <form id="search-form" role="search">

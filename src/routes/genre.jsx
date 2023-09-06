@@ -1,7 +1,7 @@
+import { useParams } from "react-router-dom";
+
 export default function Genre() {
-  return (
-    <>
-      <div>Genre</div>{" "}
-    </>
-  );
+  let { genre_id } = useParams();
+
+  return <div> {genre_id} </div>;
 }

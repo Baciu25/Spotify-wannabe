@@ -1,7 +1,7 @@
+import { useParams } from "react-router-dom";
+
 export default function Show() {
-  return (
-    <div>
-      <h1>Show</h1>
-    </div>
-  );
+  let { show_id } = useParams();
+
+  return <div> {show_id} </div>;
 }

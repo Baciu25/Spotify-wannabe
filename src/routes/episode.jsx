@@ -1,7 +1,7 @@
+import { useParams } from "react-router-dom";
+
 export default function Episode() {
-  return (
-    <div>
-      <h1>Episode</h1>
-    </div>
-  );
+  let { episode_id } = useParams();
+
+  return <div> {episode_id} </div>;
 }

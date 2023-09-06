@@ -13,8 +13,7 @@ import Artist from "./routes/artist";
 import Show from "./routes/show";
 import Episode from "./routes/episode";
 import Search from "./routes/search";
-import Signup from "./routes/notLoggedIn/signup";
-import Login from "./routes/notLoggedIn/login";
+
 import Track from "./routes/track";
 // import Index from "./routes/index";
 import { useRoutes } from "react-router-dom";

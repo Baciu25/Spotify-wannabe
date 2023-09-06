@@ -2,6 +2,8 @@ import { BrowserRouter as Router } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { Outlet } from "react-router-dom";
+
+import Login from "./notLoggedIn/login";
 export default function Root() {
   return (
     <>

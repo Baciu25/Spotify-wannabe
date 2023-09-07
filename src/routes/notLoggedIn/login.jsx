@@ -84,7 +84,7 @@ export default function Login() {
       <hr />
       <div className="app">
         <div className="login-form">
-          <div className="title">Sign In</div>
+          <div className="title">Login</div>
           {isSubmitted ? <div>User is successfully logged in</div> : renderForm}
         </div>
       </div>
